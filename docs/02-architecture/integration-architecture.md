@@ -1,6 +1,6 @@
 # Integration Architecture
 
-*How an existing ERP/HCM/HRTech can use Ordo Payroll Core as an engine without
+*How an existing ERP/HCM/HRTech can use Brazil Payroll & Compliance Engine as an engine without
 adopting the Ordo end-user product.*
 
 ## The question this answers
@@ -20,7 +20,7 @@ flowchart LR
   ERP["Existing ERP / HCM / HRTech"]
   ADP["Adapter (buyer-side)"]
   CANON["Canonical Payroll History<br/>+ Payroll Facts"]
-  CORE["Ordo Payroll Core"]
+  CORE["Brazil Payroll & Compliance Engine"]
   OUT["Payroll Result<br/>+ Audit Trace + Replay Data"]
   ERP --> ADP --> CANON --> CORE --> OUT
   OUT --> ERP
@@ -33,7 +33,7 @@ flowchart LR
    role/CBO, workweek, contract type/duration, dependents) as time segments, plus
    current-period facts (frequency, leaves, variable events, worker-credit
    installments).
-3. **Ordo Payroll Core.** Resolves the applicable legal and collective rules,
+3. **Brazil Payroll & Compliance Engine.** Resolves the applicable legal and collective rules,
    runs the domain calculators, and produces the result.
 4. **Result + audit.** Payroll events, tax bases, employer charges, vacation/13th/
    termination figures, eSocial events, and the data needed to explain/replay.
@@ -99,7 +99,7 @@ re-sent, so re-running a drain is a no-op rather than a double submission.
 
 - The buyer-side adapter to a specific legacy vendor (for example
   Contmatic, Domínio, Senior, or TOTVS) is a **possible adapter / target
-  integration pattern**. Ordo ships **parsers for common interchange formats**
+  integration pattern**. The engine ships **parsers for common interchange formats**
   (delimited files, eSocial XML, and other standard layouts) and a canonical
   model, **not** turnkey connectors for every vendor. Building a specific
   connector is integration work.

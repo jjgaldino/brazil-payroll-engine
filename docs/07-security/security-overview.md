@@ -3,7 +3,7 @@
 *High-level posture only. Exploitable detail, threat models, and the internal
 security audit are part of the private, NDA-gated materials.*
 
-Ordo Payroll Core is designed so that trust boundaries are enforced in the
+Brazil Payroll & Compliance Engine is designed so that trust boundaries are enforced in the
 **authoritative server**, secrets are isolated, and the record of what happened is
 **immutable and auditable**.
 

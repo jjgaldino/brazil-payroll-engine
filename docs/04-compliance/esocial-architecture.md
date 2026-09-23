@@ -1,6 +1,6 @@
 # eSocial Architecture
 
-Ordo builds the relevant eSocial events, hardens and validates them, checks their
+The engine builds the relevant eSocial events, hardens and validates them, checks their
 structure against the schema, and transmits them through an **isolated executor**
 that performs the digital signature and mutual-TLS transport. The signing
 certificate is handled only at runtime, inside the executor, and is never exposed to
@@ -98,7 +98,7 @@ re-running a drain is a no-op rather than a duplicate submission.
 
 ## Reconciliation
 
-After transmission, Ordo reconciles its computed values against the government's
+After transmission, the engine reconciles its computed values against the government's
 totalization — for social security, the severance fund (by category and per worker),
 and income tax — field by field with a tolerance, detecting even compensating errors
 (where a total matches but a per-worker breakdown does not).

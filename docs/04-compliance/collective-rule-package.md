@@ -100,7 +100,7 @@ collective agreements is vast and is a documented boundary.
 
 ## Known boundaries
 
-- Ordo implements a complete, auditable **model** and the specific instruments used
+- The engine implements a complete, auditable **model** and the specific instruments used
   in validation — not every Brazilian agreement. Extending coverage to another
   agreement is rule-authoring work against the model.
 - Clauses that require human judgment (certain stability or classification

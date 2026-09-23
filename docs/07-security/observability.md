@@ -1,6 +1,6 @@
 # Observability
 
-Ordo Payroll Core is built to be **explained and reproduced**. Every result carries
+Brazil Payroll & Compliance Engine is built to be **explained and reproduced**. Every result carries
 the data needed to understand it; every closed competence is an immutable, hashed
 snapshot; and the validation chain can be replayed from storage.
 

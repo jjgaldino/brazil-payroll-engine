@@ -54,6 +54,6 @@ terms are given with their local name where useful.
 | **Execution envelope** | The recorded context (competence, payment date, resolved packages) of a calculation. |
 | **Replay capsule** | Minimal, PII-free evidence to reproduce/analyze a result or divergence. |
 | **Resolution trace** | The step-by-step record of how a rule was resolved (national → collective → final). |
-| **Master Shadow** | Ordo's internal longitudinal validation protocol (engine vs independent oracle). |
+| **Master Shadow** | The internal longitudinal validation protocol (engine vs independent oracle). |
 | **Oracle** | An independent implementation of the rules used to check the engine. |
 | **Trusted-since** | The point from which a fact's provenance is trusted; earlier competences return review-required. |

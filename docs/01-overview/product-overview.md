@@ -26,13 +26,14 @@ which worker, in which month, known as of when, paid on which date** — and doi
 so consistently across time so that closed periods remain trustworthy and
 retroactive changes are handled without corrupting history.
 
-## What Ordo Payroll Core is
+## What Brazil Payroll & Compliance Engine is
 
-Ordo Payroll Core is the **engine** underneath the Ordo product: the part that
-turns *facts + resolved rules* into an *auditable payroll result*. It is designed
-so that a third party (an ERP, an HCM suite, an HRTech platform, a global payroll
-provider) can integrate the engine on its own, without adopting the Ordo
-end-user application.
+Brazil Payroll & Compliance Engine is a payroll-and-compliance **engine**: the part
+that turns *facts + resolved rules* into an *auditable payroll result*. It originated
+inside the Ordo payroll product and is offered as an independent asset — designed so
+that a third party (an ERP, an HCM suite, an HRTech platform, a global payroll
+provider) can integrate the engine on its own, without adopting any end-user
+application.
 
 It is built around four principles:
 

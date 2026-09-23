@@ -1,13 +1,13 @@
 # Acquisition / OEM Overview
 
-Ordo Payroll Core can be structured as a technology asset in several ways. This page
+Brazil Payroll & Compliance Engine can be structured as a technology asset in several ways. This page
 describes the **possible shapes** of a transaction. It does **not** state pricing,
 valuation, or definitive legal terms — those are handled privately.
 
-## Ordo vs Ordo Payroll Core
+## Ordo vs Brazil Payroll & Compliance Engine
 
 - **Ordo** is the SaaS/ERP-style operational product.
-- **Ordo Payroll Core** is the payroll + compliance **engine** underneath it.
+- **Brazil Payroll & Compliance Engine** is the payroll + compliance **engine** underneath it.
 
 A buyer can acquire or license **only the engine**, integrating it behind their own
 product, without taking the Ordo end-user application. See

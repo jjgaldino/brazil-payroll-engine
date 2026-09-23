@@ -1,14 +1,16 @@
-# Ordo Payroll Core
+# Brazil Payroll & Compliance Engine
 
 > Brazilian cloud-native payroll and compliance engine with bitemporal rule
 > resolution, collective-bargaining support, eSocial integration and
 > longitudinal payroll validation.
 
-Ordo Payroll Core is the calculation-and-compliance engine that sits underneath
-Ordo, a Brazilian payroll/accounting product. This repository is a **public,
-sanitized technical showcase** of the engine as an asset — for CTOs, founders,
-product leaders, corporate-development / M&A teams, ERP/HCM vendors, global
-payroll companies and HRTech evaluators.
+Brazil Payroll & Compliance Engine is a Brazilian cloud-native payroll and
+compliance engine, offered as an **independent technology asset**. It originated
+inside Ordo — a Brazilian payroll/accounting product — and is presented here on its
+own: the calculation-and-compliance core, separable from any end-user application.
+This repository is a **public, sanitized technical showcase** of the engine as an
+asset — for CTOs, founders, product leaders, corporate-development / M&A teams,
+ERP/HCM vendors, global payroll companies and HRTech evaluators.
 
 It is **documentation only**. No proprietary source code, secrets, or customer
 data are published here. Deeper technical due-diligence material is available
@@ -18,7 +20,7 @@ privately under NDA.
 
 ## What it is
 
-Ordo Payroll Core computes Brazilian payroll and its statutory obligations from
+Brazil Payroll & Compliance Engine computes Brazilian payroll and its statutory obligations from
 a **canonical history of contractual facts**, resolving the applicable legal and
 collective-bargaining rules **by validity period** and producing an **immutable,
 auditable result** (payslip events, tax bases, employer charges, vacation, 13th
@@ -37,7 +39,7 @@ and *which collective agreement applies to that worker*. Getting this wrong
 produces silent, compounding errors that surface months later as tax and labor
 liabilities.
 
-Ordo Payroll Core was built to make that resolution **explicit, versioned and
+Brazil Payroll & Compliance Engine was built to make that resolution **explicit, versioned and
 auditable**, and then validated **longitudinally** — month after month across a
 two-year horizon — rather than only on isolated unit cases.
 
@@ -123,7 +125,7 @@ See [`docs/04-compliance/collective-rule-package.md`](docs/04-compliance/collect
 
 ## eSocial integration
 
-Ordo builds the relevant eSocial events (remuneration, admission, termination,
+The engine builds the relevant eSocial events (remuneration, admission, termination,
 leave, payments, periodic close/reopen), hardens and validates input, checks
 structure against the schema, and transmits through an **isolated executor** that
 performs the digital signature (XMLDSig) and mutual-TLS transport. The signing
@@ -132,7 +134,7 @@ layer. See [`docs/04-compliance/esocial-architecture.md`](docs/04-compliance/eso
 
 ## Validation
 
-Ordo Payroll Core has been exercised under an internal longitudinal validation
+Brazil Payroll & Compliance Engine has been exercised under an internal longitudinal validation
 protocol ("Master Shadow"): the production engine is compared, month by month,
 against an **independent oracle** implemented separately from the engine.
 
@@ -150,7 +152,7 @@ immutable snapshot chain
 database reload match + process-restart replay
 ```
 
-Validation was performed internally under the Ordo Master Shadow protocol.
+Validation was performed internally under the Master Shadow validation protocol.
 This is **not** a third-party certification. Two issues found during validation
 were traced to the *oracle* (the engine was vindicated) and are documented
 openly. See [`docs/05-validation/`](docs/05-validation/).
@@ -162,7 +164,7 @@ ERP / HCM / HRTech
       ↓
 Canonical Payroll History  +  Payroll Facts
       ↓
-Ordo Payroll Core
+Brazil Payroll & Compliance Engine
       ↓
 Payroll Result · Tax Bases · Charges · Vacation · 13th · Termination ·
 eSocial · Audit Trace · Replay Data
@@ -187,7 +189,7 @@ facts, and returns a payroll result with a full audit trace. See
 
 ## Known boundaries
 
-Ordo Payroll Core is honest about the edges of its validated scope:
+Brazil Payroll & Compliance Engine is honest about the edges of its validated scope:
 
 - The validated scope is **finite**. Not every Brazilian collective agreement is
   implemented; the deep collective coverage demonstrated so far is centered on

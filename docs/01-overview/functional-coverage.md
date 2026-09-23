@@ -80,7 +80,7 @@ to cover every Brazilian payroll scenario.*
   divergence **within the tested scope** — not that every conceivable case is
   covered.
 - `KNOWN_BOUNDARY` items are documented deliberately. The most important one is
-  that the collective-bargaining universe is vast; Ordo implements a complete,
+  that the collective-bargaining universe is vast; the engine implements a complete,
   auditable *model* and has fully implemented the instruments used in validation,
   but has not implemented every Brazilian agreement.
 

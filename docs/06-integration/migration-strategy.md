@@ -1,7 +1,7 @@
 # Migration Strategy
 
 Because several Brazilian payroll calculations read the past, **how much history is
-migrated** determines how much can be computed without a review-required stop. Ordo
+migrated** determines how much can be computed without a review-required stop. The engine
 supports three strategies and is explicit about their trade-offs.
 
 ## The core tension
@@ -64,18 +64,18 @@ supplied — by design, this is a **visible** boundary, not a silent miscalculat
 
 ## Reproducing a legacy closing (optional)
 
-Where a buyer needs the first Ordo closings to **match** the legacy system's prior
+Where a buyer needs the first closings produced by the engine to **match** the legacy system's prior
 numbers exactly (including the legacy system's rounding or day-count conventions),
-Ordo supports an **opt-in legacy-parity projection**: a versioned overlay that
+the engine supports an **opt-in legacy-parity projection**: a versioned overlay that
 reproduces the legacy behavior **with provenance**, without mutating the canonical
-fact. The canonical result remains the Ordo-correct one; the parity projection is an
+fact. The canonical result remains the engine-correct one; the parity projection is an
 auditable, clearly-labeled compatibility layer. See
 [frequency & DSR](../03-payroll-domains/frequency-dsr.md) for an example
 (commercial-month divisor, decimal delay encoding).
 
 ## Honest boundaries
 
-- Migration **connectors** for specific legacy vendors are not all built; Ordo
+- Migration **connectors** for specific legacy vendors are not all built; the engine
   provides parsers for common interchange formats and a canonical model. A specific
   connector is integration work.
 - The dirty-window mechanism marks which competences must be recomputed when a fact

@@ -1,6 +1,6 @@
 # Persistence Validation — Public Summary
 
-Beyond validating the calculation, Ordo validated the **persistence** of the
+Beyond validating the calculation, the engine validated the **persistence** of the
 validation chain: that what was calculated is exactly what persists, reloads,
 replays, and survives a process restart — in an isolated staging environment.
 
@@ -57,7 +57,7 @@ happened **after a fresh read from the database** — never from in-memory objec
 
 ## Conclusion
 
-Ordo Payroll Core's validation is not only "the numbers are right" but also "the
+Brazil Payroll & Compliance Engine's validation is not only "the numbers are right" but also "the
 record of the right numbers persists, reloads, replays, and survives restart, with
 idempotency and transactional safety". Within the tested, isolated scope, the
 operation is validated end to end.

@@ -1,4 +1,4 @@
-# Ordo Payroll Core — Technical Teaser
+# Brazil Payroll & Compliance Engine — Technical Teaser
 
 *Pre-NDA overview. Documentation only; no source code or confidential data.*
 
@@ -6,7 +6,7 @@
 
 ## The asset in one paragraph
 
-Ordo Payroll Core is a **Brazilian payroll and compliance engine** that resolves
+Brazil Payroll & Compliance Engine is a **Brazilian payroll and compliance engine** that resolves
 statutory and collective-bargaining rules **by validity period** and computes the
 full set of Brazilian payroll obligations — monthly payroll, vacation, 13th
 salary, terminations, leaves, frequency/DSR, overtime, retroactive/supplementary
@@ -28,7 +28,7 @@ Brazilian payroll correctness is a *temporal* problem, not an arithmetic one:
 - A collective raise agreed *today* but effective *months ago* must be paid
   **without rewriting** already-closed payrolls.
 
-Most systems bury these decisions in code. Ordo Payroll Core makes them **explicit,
+Most systems bury these decisions in code. Brazil Payroll & Compliance Engine makes them **explicit,
 versioned, and auditable**, and fails **loudly** (coverage error) when a rule is
 missing instead of silently applying the wrong one.
 
@@ -56,7 +56,7 @@ engine — the engine was vindicated in both — and are documented openly. This
 ```
 ERP / HCM / HRTech
       ↓  (canonical payroll history + current facts)
-Ordo Payroll Core
+Brazil Payroll & Compliance Engine
       ↓
 payroll result · tax bases · employer charges · vacation · 13th ·
 termination · eSocial events · audit trace · replay data

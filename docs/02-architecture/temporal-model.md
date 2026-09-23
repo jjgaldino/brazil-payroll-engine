@@ -1,12 +1,12 @@
 # Temporal Model
 
-*This is the conceptual heart of Ordo Payroll Core and its strongest public
+*This is the conceptual heart of Brazil Payroll & Compliance Engine and its strongest public
 differentiator.*
 
 Brazilian payroll correctness depends less on arithmetic and more on **time**. The
 same input produces different correct answers depending on *when* the work
 happened, *when* it is paid, *when* a rule became effective, and *when* that rule
-became known. Ordo Payroll Core models these as **first-class, independent
+became known. Brazil Payroll & Compliance Engine models these as **first-class, independent
 temporal dimensions**.
 
 ## The vocabulary
@@ -32,7 +32,7 @@ example is a collective raise:
 
 A naive system either rewrites the closed months (destroying history and
 re-triggering already-filed obligations) or ignores the retroactivity (underpaying
-the worker). Ordo Payroll Core does neither.
+the worker). Brazil Payroll & Compliance Engine does neither.
 
 ```mermaid
 sequenceDiagram
@@ -108,7 +108,7 @@ moves the payment date, the tax resolution follows.
 
 ## Summary
 
-Ordo Payroll Core treats time as structure, not metadata. Competence, payment
+Brazil Payroll & Compliance Engine treats time as structure, not metadata. Competence, payment
 date, occurrence, application, effective-from/to and known-at/registered-at are all
 explicit. That is what allows it to keep closed periods immutable, pay
 retroactivity correctly, tax it correctly, and explain every number — the

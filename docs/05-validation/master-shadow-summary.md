@@ -1,6 +1,6 @@
 # Master Shadow — Public Summary
 
-"Master Shadow" is Ordo's internal longitudinal validation protocol. It runs the
+"Master Shadow" is the engine's internal longitudinal validation protocol. It runs the
 production engine against an independent oracle across a two-year horizon and freezes
 the outcome as an immutable, replayable chain.
 
@@ -66,5 +66,5 @@ resolution before any change during a validation stop.
 
 Across 24 months and 10 calculation domains, the production engine and an independent
 oracle agreed to the cent, with deterministic replay and an intact snapshot chain.
-Within the tested scope, Ordo Payroll Core behaved as a **longitudinally consistent
+Within the tested scope, Brazil Payroll & Compliance Engine behaved as a **longitudinally consistent
 payroll operation**, not merely a correct one-shot calculator.

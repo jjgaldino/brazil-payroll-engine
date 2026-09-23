@@ -5,9 +5,10 @@ development, M&A, product leadership). One page of substance.*
 
 ## What is being offered
 
-**Ordo Payroll Core** — the calculation-and-compliance engine underneath the Ordo
-Brazilian payroll product. It can be evaluated and integrated **as an engine**,
-independently of the end-user application.
+**Brazil Payroll & Compliance Engine** — the calculation-and-compliance engine that
+originated inside Ordo (a Brazilian payroll product) and is offered as an
+**independent technology asset**. It can be evaluated and integrated **as an engine**,
+independently of any end-user application.
 
 ## The thesis
 
@@ -15,7 +16,7 @@ Brazilian payroll correctness is a **temporal rule-resolution problem**. The val
 is not "computing a payslip"; it is deciding, consistently and auditably, *which
 rule applies to which worker in which month, known as of when, and paid on which
 date* — and keeping closed periods trustworthy while handling retroactive changes.
-Ordo Payroll Core encodes that as an explicit, versioned, auditable system and has
+Brazil Payroll & Compliance Engine encodes that as an explicit, versioned, auditable system and has
 validated it **longitudinally**, not just on isolated cases.
 
 ## What makes it defensible

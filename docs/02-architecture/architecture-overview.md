@@ -5,7 +5,7 @@ endpoints and full schema maps are intentionally not published.*
 
 ## Design goals
 
-Ordo Payroll Core is organized around a few load-bearing decisions:
+Brazil Payroll & Compliance Engine is organized around a few load-bearing decisions:
 
 1. **Separate facts, rules, and calculation.** Facts (what happened) are distinct
    from rules (what the law/agreement says) which are distinct from calculation

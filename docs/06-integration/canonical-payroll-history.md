@@ -65,7 +65,7 @@ the more of these calculations can run without a review-required stop. See
 ## Mapping from a legacy system
 
 An external system (for example, a legacy payroll/accounting system) maps its data
-into these facts and history streams via a **buyer-side adapter**. Ordo provides
+into these facts and history streams via a **buyer-side adapter**. The engine provides
 parsers for common interchange formats and the canonical model; a specific vendor
 connector is integration work, not a pre-shipped feature. The documentation is
 deliberate about this: it describes a **target integration pattern**, and does not

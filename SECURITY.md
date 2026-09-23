@@ -5,7 +5,7 @@ no secrets, no credentials, and no production data.
 
 Please **do not report vulnerabilities by opening public issues**.
 
-For any security matter related to Ordo Payroll Core, contact:
+For any security matter related to Brazil Payroll & Compliance Engine, contact:
 
 ```
 SECURITY_CONTACT_TO_BE_DEFINED

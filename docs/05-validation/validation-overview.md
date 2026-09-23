@@ -1,6 +1,6 @@
 # Validation Overview
 
-Ordo Payroll Core is validated **longitudinally** — month after month across a
+Brazil Payroll & Compliance Engine is validated **longitudinally** — month after month across a
 two-year horizon — by comparing the production engine against an **independent
 oracle** implemented separately from the engine. This is an internal protocol, not a
 third-party certification.
