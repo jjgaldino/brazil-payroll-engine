@@ -103,7 +103,7 @@ correctly, and preserved the evidence is itself a signal of the protocol's rigor
 
 - This is an **internal** protocol, not an external certification.
 - Execution was deterministic and in-process for the calculation core; the
-  **persistence** layer was certified separately in an isolated staging environment
+  **persistence** layer was validated separately in an isolated staging environment
   (see [persistence validation summary](persistence-validation-summary.md)).
 - The collective-contribution positive-deduction case was covered by an auxiliary
   probe because the main synthetic population is entirely opposition/exempt.

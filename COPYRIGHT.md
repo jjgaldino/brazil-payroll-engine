@@ -15,11 +15,10 @@ documentation.
 
 ---
 
-**Notice on legal ownership.** The corporate/legal ownership of the Ordo
-Payroll Core intellectual property is stated above to the best of the
-information available at the time of writing. Formal confirmation of legal
-title is marked `TO_BE_LEGALLY_VERIFIED` and should be established through
-documentary due diligence before any transaction.
+**Ownership and due diligence.** Ordo Payroll Core and its intellectual
+property are proprietary. Ownership details and supporting documentation are
+made available through the appropriate due-diligence process in connection with
+a prospective transaction.
 
 **Trademarks and third-party references.** Names of third-party systems,
 government platforms (e.g. eSocial, FGTS Digital, DCTFWeb), collective

@@ -29,7 +29,7 @@ product, without taking the Ordo end-user application. See
 - A payroll/compliance **engine** covering the core Brazilian domains, with a
   bitemporal rule model and a no-silent-fallback posture.
 - A **canonical integration model** usable without adopting the Ordo product.
-- A **validation corpus** (longitudinal engine-vs-oracle, persistence certification)
+- A **validation corpus** (longitudinal engine-vs-oracle, persistence validation)
   and audit machinery suitable for regulated environments.
 - Honest, documented **boundaries** of the validated scope.
 

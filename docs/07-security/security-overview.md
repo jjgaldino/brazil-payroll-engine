@@ -27,8 +27,8 @@ authorization.
 ## Staging / production separation
 
 Validation and experimentation run in an **isolated staging** environment on
-namespaced, synthetic datasets. The longitudinal validation and its persistence
-certification were performed there, without touching production and without
+namespaced, synthetic datasets. The longitudinal validation and the persistence
+validation were performed there, without touching production and without
 transmitting any external obligation.
 
 ## Certificate isolation

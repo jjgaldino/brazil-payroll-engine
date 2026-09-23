@@ -1,6 +1,6 @@
 # Persistence Validation — Public Summary
 
-Beyond certifying the calculation, Ordo certified the **persistence** of the
+Beyond validating the calculation, Ordo validated the **persistence** of the
 validation chain: that what was calculated is exactly what persists, reloads,
 replays, and survives a process restart — in an isolated staging environment.
 
@@ -48,9 +48,9 @@ happened **after a fresh read from the database** — never from in-memory objec
 
 ## Honest framing
 
-- This was certified **exclusively in an isolated staging environment**, on a
+- This was validated **exclusively in an isolated staging environment**, on a
   namespaced, synthetic dataset. Production was not touched, and no external
-  obligation was transmitted as part of this certification.
+  obligation was transmitted as part of this validation.
 - Together with the [Master Shadow summary](master-shadow-summary.md), it means the
   engine's correctness and the durability of its record were both established — the
   calculation and its persistence.
@@ -60,4 +60,4 @@ happened **after a fresh read from the database** — never from in-memory objec
 Ordo Payroll Core's validation is not only "the numbers are right" but also "the
 record of the right numbers persists, reloads, replays, and survives restart, with
 idempotency and transactional safety". Within the tested, isolated scope, the
-operation is certified end to end.
+operation is validated end to end.

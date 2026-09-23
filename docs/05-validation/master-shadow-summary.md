@@ -55,8 +55,8 @@ resolution before any change during a validation stop.
 ## Honest framing
 
 - This is an **internal** validation protocol, **not** a third-party certification.
-- The calculation certification ran deterministically in-process; the persistence
-  layer was certified separately (see
+- The calculation validation ran deterministically in-process; the persistence
+  layer was validated separately (see
   [persistence validation summary](persistence-validation-summary.md)).
 - Human-facing evidence documents (payslips, payroll registers, a termination term)
   were derived from the certified data for illustration; they are outputs of the

@@ -15,7 +15,7 @@ sensitive internal files.
 | Claim | Public evidence | Private evidence (NDA) |
 |---|---|---|
 | 24-month longitudinal validation, engine vs independent oracle, 0 final divergences | [validation-overview](../05-validation/validation-overview.md), [master-shadow-summary](../05-validation/master-shadow-summary.md) | Master Shadow close report; global reconciliation; per-domain certification artifacts |
-| Persistence certified in isolated staging (reload, replay, restart, idempotency, rollback) | [persistence-validation-summary](../05-validation/persistence-validation-summary.md) | Persistence certification report; persisted chain artifact |
+| Persistence validated in isolated staging (reload, replay, restart, idempotency, rollback) | [persistence-validation-summary](../05-validation/persistence-validation-summary.md) | Persistence validation report; persisted chain artifact |
 | Two validation findings attributed to the oracle; engine vindicated; evidence preserved | [validation-overview](../05-validation/validation-overview.md) | Detailed incident register (two incidents) with root-cause and resolution |
 | Bitemporal rule resolution; retroactivity without rewriting closed payroll | [temporal-model](../02-architecture/temporal-model.md), [retroactive-payroll](../03-payroll-domains/retroactive-payroll.md) | Bitemporality design notes; retroactive/dissídio certification |
 | Legal package: versioned parameters, payment-date income tax, no silent fallback | [legal-package](../04-compliance/legal-package.md) | Legal-package coverage report; temporal-basis specification |

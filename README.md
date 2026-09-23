@@ -50,7 +50,7 @@ two-year horizon — rather than only on isolated unit cases.
   as a **supplementary payroll** without rewriting the closed original.
 - **Collective-bargaining support** — CCT/ACT/addendum modeling with
   applicability, clause precedence, and resolution traces.
-- **Full Brazilian payroll domains** — vacation, 13th salary, terminations,
+- **Core Brazilian payroll domains** — vacation, 13th salary, terminations,
   leaves (including accident-leave FGTS), frequency/DSR, overtime/night premium,
   retroactive/supplementary payroll, and payroll-deductible worker credit
   (consignado).
@@ -178,7 +178,7 @@ facts, and returns a payroll result with a full audit trace. See
   and covered by internal golden tests.
 - Longitudinal engine-vs-oracle validation across 24 months is **complete** with
   zero final divergences (internal protocol).
-- Persistence of the validation chain is **certified in an isolated staging
+- Persistence of the validation chain is **validated in an isolated staging
   environment** (reload, replay, restart, idempotency, transactional rollback).
 - eSocial event building, hardening, schema checks, and the isolated
   signing/transport executor are **implemented**; end-to-end transmission has
