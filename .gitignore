@@ -1,0 +1,18 @@
+# Private data room — technical due-diligence material, NEVER published
+private-data-room/
+*.private.md
+*.secret.*
+
+# Secrets / environment
+.env*
+*.pfx
+*.p12
+*.key
+*.pem
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

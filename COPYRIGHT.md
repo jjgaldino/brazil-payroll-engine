@@ -1,0 +1,28 @@
+# Copyright
+
+Copyright © 2026 Inventare Solutions LTDA.
+All rights reserved.
+
+This repository contains public documentation and technical descriptions
+of Ordo Payroll Core. Publication of this documentation does not grant
+a license to use, reproduce, implement or distribute the underlying
+proprietary software or intellectual property.
+
+The Ordo Payroll Core engine, its source code, internal test suites,
+validation harnesses, integrations, and configuration remain private and
+proprietary. No open-source license is granted by the publication of this
+documentation.
+
+---
+
+**Notice on legal ownership.** The corporate/legal ownership of the Ordo
+Payroll Core intellectual property is stated above to the best of the
+information available at the time of writing. Formal confirmation of legal
+title is marked `TO_BE_LEGALLY_VERIFIED` and should be established through
+documentary due diligence before any transaction.
+
+**Trademarks and third-party references.** Names of third-party systems,
+government platforms (e.g. eSocial, FGTS Digital, DCTFWeb), collective
+bargaining instruments, and legal norms are referenced for descriptive and
+interoperability purposes only. Such references do not imply endorsement,
+affiliation, or certification by those parties.
