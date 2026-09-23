@@ -71,4 +71,4 @@ handled privately.
 ## Next step
 
 A private data room supports technical, legal and commercial due diligence under
-NDA. Contact `COMMERCIAL_CONTACT_TO_BE_DEFINED`.
+NDA. Contact [contato@inventaresolutions.com.br](mailto:contato@inventaresolutions.com.br).

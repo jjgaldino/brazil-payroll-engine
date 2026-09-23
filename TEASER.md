@@ -82,7 +82,7 @@ A private data room (product & technology dossier, validation dossier,
 integration dossier, IP inventory, detailed evidence matrix) is available under
 NDA for technical due diligence.
 
-Contact: `COMMERCIAL_CONTACT_TO_BE_DEFINED`.
+Contact: [contato@inventaresolutions.com.br](mailto:contato@inventaresolutions.com.br).
 
 ---
 

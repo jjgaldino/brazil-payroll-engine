@@ -212,7 +212,7 @@ No pricing or definitive legal terms are published here.
 ## Contact
 
 Commercial and technical due-diligence contact:
-`COMMERCIAL_CONTACT_TO_BE_DEFINED`.
+[contato@inventaresolutions.com.br](mailto:contato@inventaresolutions.com.br).
 
 Deeper technical documentation (product & technology dossier, validation
 dossier, integration dossier, IP inventory, evidence matrix) is available under
